@@ -1,0 +1,9 @@
+<h1>{{title}}</h1>
+<!-- <app-data></app-data> -->
+ <app-data 
+     [name]='name'
+     [address]='address'
+     [salary]='salary'
+     (sendEvent)='getRequest()'       ></app-data>
+
+<h4>{{status}}</h4>
